@@ -2,7 +2,7 @@ package Task;
 
 import java.util.Random;
 
-public class usernamevalidation
+public class UserNameValidation
 {
 int name;
 String[]userNames= {"Vaishnavi","Gayathri","aArathiya"};
@@ -27,7 +27,7 @@ return (a+b+c);
 }
 public static void main(String[]args)
 {
-usernamevalidation cs=new usernamevalidation();
+UserNameValidation cs=new UserNameValidation();
 System.out.println("List of Random names");
 cs.generateName();
 }
