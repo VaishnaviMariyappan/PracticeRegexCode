@@ -2,24 +2,27 @@ package Task;
 
 
 	import java.util.Scanner; 
-	class challenge
+	public class challenge
 	{ 
 	public static void main(String[] args)
 	{
 	int challenge;
-	try (Scanner sc = new Scanner(System.in)) {
-		System.out.println("Enter the Value:");
-		challenge = sc.nextInt();
+	Scanner sc = new Scanner(System.in)
+        System.out.println("Enter the Value:");
+        challenge = sc.nextInt();
+	System.out.println(isSeven(challenge));
 	}
-	if(challenge==7)
+	public satic boolean isseven(int num)
 	{
-	System.out.println("Challenge.isSeven("+challenge+") ---> True");
-	}
-	else
-	{
-	System.out.println("Challenge.isSeven("+challenge+") ---> False");
-	}
-	}
-	}
+        if (num == 7) 
+        {
+        return true;
+        } 
+        else 
+        {
+        return false;
+        }
+        }
+        }
 
 
