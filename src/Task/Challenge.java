@@ -2,7 +2,7 @@ package Task;
 
 
 	import java.util.Scanner; 
-	public class challenge
+	public class Challenge
 	{ 
 	public static void main(String[] args)
 	{
