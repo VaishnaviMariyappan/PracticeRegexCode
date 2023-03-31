@@ -3,7 +3,7 @@ package Task;
 
 	import java.util.regex.Matcher;
 	import java.util.regex.Pattern;
-	public class validatemobileno 
+	public class ValidateMobileNo 
 	{
 	public static void main(String[] args)
 	{
