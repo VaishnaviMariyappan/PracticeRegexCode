@@ -1,5 +1,5 @@
 package Task;
-public class validateaddress
+public class ValidateAddress
 {
 public static void main(String []args) 
 {
